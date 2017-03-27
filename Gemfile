@@ -52,6 +52,7 @@ group :development do
 end
 
 group :production do
+  gem 'therubyracer', '~> 0.9.3.beta1'
   gem 'pg'
 end
 
